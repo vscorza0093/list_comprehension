@@ -1,4 +1,4 @@
-# &#128013 List_comprehension
+# List_comprehension
 
 List comprehension is a great sintax to create lists based on other existent lists, enumerating their elements and passing to the new list based on our needs and conditions.
 
@@ -9,6 +9,8 @@ It has a beautiful capacity to create powerful funcionalitys and save us lines o
 The sintax is very simple, but has space to be a lot more complex if we start nesting loops inside a single list comprehension
 
  
+&#128013
+
 Base sintax:
   
     new_list = [num for num in iterable]
