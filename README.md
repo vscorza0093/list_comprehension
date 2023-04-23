@@ -8,7 +8,6 @@ It has a beautiful capacity to create powerful funcionalitys and save us lines o
 
 The sintax is very simple, but has space to be a lot more complex if we start nesting loops inside a single list comprehension
 
-U+1F916
  
 Base sintax:
   
