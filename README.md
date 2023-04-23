@@ -10,7 +10,7 @@ The sintax is very simple, but has space to be a lot more complex if we start ne
 
  
 
-Base sintax:
+&#128209; Base sintax:
   
     new_list = [num for num in iterable]
     
@@ -18,12 +18,12 @@ Base sintax:
     new_fruit_list = [fruit for fruit in fruits]
     
     
-Using if statement and generator
+&#128272; Using if statement and generator
 
     new_list = [num for num in generator(n) if num % 2 == 0]
     
     
-List comprehension with nested loops
+&#9889; List comprehension with nested loops
 
     x = 2
     y = 2
@@ -32,7 +32,7 @@ List comprehension with nested loops
     
     new_list = [[a, b, c] for a in range(x + 1) for b in range(y + 1) for c in range(z + 1) if a + b + c != 4]
 
-&#9889; The code above will produce the same effect as:
+The code above will produce the same effect as:
 
     x = 2
     y = 2
