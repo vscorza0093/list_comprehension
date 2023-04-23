@@ -32,7 +32,7 @@ List comprehension with nested loops
     
     new_list = [[a, b, c] for a in range(x + 1) for b in range(y + 1) for c in range(z + 1) if a + b + c != 4]
 
-The code above will produce the same effect as:
+&#9889; The code above will produce the same effect as:
 
     x = 2
     y = 2
