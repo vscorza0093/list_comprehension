@@ -44,11 +44,11 @@ The code above will produce the same effect as:
         for b in range(y + 1):
             for c in range(z + 1):
                 if a + b + c != n:
-                    new_list = []
-                    new_list.append(a)
-                    new_list.append(b)
-                    new_list.append(c)
-                    final_list.append(new_list)
+                    temp_list = []
+                    temp_list.append(a)
+                    temp_list.append(b)
+                    temp_list.append(c)
+                    final_list.append(temp_list)
 
     print(final_list)
 
