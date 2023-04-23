@@ -15,7 +15,7 @@ Base sintax:
     new_fruit_list = [fruit for fruit in fruits]
     
     
-Adding if statement using generator
+Using if statement and generator
 
     new_list = [num for num in generator(n) if num % 2 == 0]
     
