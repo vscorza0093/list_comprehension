@@ -1,6 +1,6 @@
 # &#128013; List_comprehension
 
-List comprehension is a great sintax to create lists based on other existent lists, enumerating their elements and passing to the new list based on our needs and conditions.
+List comprehension is a great feature to create lists based on other existent lists, enumerating their elements and passing to the new list based on our needs and conditions.
 
 Its a method to add values that are in other lists to a new list in, a dinamcly way
 
