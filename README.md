@@ -28,7 +28,7 @@ The sintax is very simple, but has space to be a lot more complex if we start ne
     z = 2
     n = 4
     
-    new_list = [[a, b, c] for a in range(x + 1) for b in range(y + 1) for c in range(z + 1) if a + b + c != 4]
+    list_of_coordinates = [[a, b, c] for a in range(x + 1) for b in range(y + 1) for c in range(z + 1) if a + b + c != 4]
 
 The code above will produce the same effect as:
 
@@ -37,17 +37,18 @@ The code above will produce the same effect as:
     z = 2
     n = 4
 
-    final_list = []
-    for a in range(x + 1):
-        for b in range(y + 1):
-            for c in range(z + 1):
-                if a + b + c != n:
-                    temp_list = []
-                    temp_list.append(a)
-                    temp_list.append(b)
-                    temp_list.append(c)
-                    final_list.append(temp_list)
+    list_of_coordinates = []
 
-    print(final_list)
+    for num_x in range(0, x + 1):
+        for num_y in range(0, y + 1):
+            for num_z in range(0, z + 1):
+                temp_list = []
+                temp_list.append(num_x)
+                temp_list.append(num_y)
+                temp_list.append(num_z)
+
+                if (num_x + num_y + num_z is not n):
+                    list_of_coordinates.append(temp_list)
+
 
             
