@@ -1,10 +1,8 @@
 # &#128013; List_comprehension
 
-List comprehension is a great feature to create lists based on other existent lists, enumerating their elements and passing to the new list based on our needs and conditions.
+List comprehension is a great and dynamic feature to create lists based on other existent list, iterating their elements and saving on a new list based on our needs and conditions.
 
-Its a method to add values that are in other lists to a new list in, a dinamcly way
-
-It has a beautiful capacity to create powerful funcionalitys and save us lines of code
+It has a beautiful capacity to create powerful funcionalitys using one line of code
 
 The sintax is very simple, but has space to be a lot more complex if we start nesting loops inside a single list comprehension
 
@@ -12,7 +10,7 @@ The sintax is very simple, but has space to be a lot more complex if we start ne
 
 &#128209; Base sintax:
   
-    new_list = [num for num in iterable]
+    new_list_of_int = [num for num in list_of_int]
     
     fruits = ["apple", "banana", "watermeloon"]
     new_fruit_list = [fruit for fruit in fruits]
@@ -20,7 +18,7 @@ The sintax is very simple, but has space to be a lot more complex if we start ne
     
 &#128272; Using if statement and generator
 
-    new_list = [num for num in generator(n) if num % 2 == 0]
+    new_list = [num for num in range(n) if num % 2 == 0]
     
     
 &#9889; List comprehension with nested loops
