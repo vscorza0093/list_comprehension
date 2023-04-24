@@ -16,7 +16,7 @@ The sintax is very simple, but has space to be a lot more complex if we start ne
     new_fruit_list = [fruit for fruit in fruits]
     
     
-&#128272; Using if statement and generator
+&#128272; Using if statement
 
     new_list = [num for num in range(n) if num % 2 == 0]
     
