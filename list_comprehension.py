@@ -5,18 +5,18 @@ y = 2
 z = 2
 n = 3
 
-final_list = []
+list_of_coordinates = []
 
 for num_x in range(0, x + 1):
     for num_y in range(0, y + 1):
         for num_z in range(0, z + 1):
-            num_list = []
-            num_list.append(num_x)
-            num_list.append(num_y)
-            num_list.append(num_z)
+            temp_list = []
+            temp_list.append(num_x)
+            temp_list.append(num_y)
+            temp_list.append(num_z)
 
             if (num_x + num_y + num_z is not n):
-                final_list.append(num_list)
+                list_of_coordinates.append(temp_list)
 
 # for num in final_list:
 #    print(num)
@@ -32,5 +32,5 @@ for num_x in range(0, x + 1):
 #    print(n)
 
 
-print([[a, b, c] for a in range(x + 1)
-      for b in range(y + 1) for c in range(z + 1) if a + b + c != n])
+list_of_coordinates2 = ([[a, b, c] for a in range(x + 1)
+                         for b in range(y + 1) for c in range(z + 1) if a + b + c != n])
